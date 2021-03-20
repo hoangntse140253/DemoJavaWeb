@@ -6,7 +6,7 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en" xml:lang="en">
+<html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
@@ -20,10 +20,10 @@
         </form>
         <c:if test="${requestScope.INFO != null}">
             <c:if test="${not empty requestScope.INFO}" var="checkList">
-                <table border="1" <caption>New York City Marathon Results 2013</caption> >
+                <table border="1" >
                     <thead>
                         <tr>
-                            <th id"Number">No.</th>
+                            <th>No.</th>
                             <th>Username</th>
                             <th>Fullname</th>
                             <th>Role</th>
