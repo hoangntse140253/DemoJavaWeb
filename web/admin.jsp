@@ -20,7 +20,7 @@
         </form>
         <c:if test="${requestScope.INFO != null}">
             <c:if test="${not empty requestScope.INFO}" var="checkList">
-                <table border="1">
+                <table border="1" <caption>New York City Marathon Results 2013</caption> >
                     <thead>
                         <tr>
                             <th id"Number">No.</th>
