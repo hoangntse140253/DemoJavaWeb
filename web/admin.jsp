@@ -23,7 +23,7 @@
                 <table border="1" >
                     <thead>
                         <tr>
-                            <th id="1">No.</th>
+                            <th>No.</th>
                             <th>Username</th>
                             <th>Fullname</th>
                             <th>Role</th>
